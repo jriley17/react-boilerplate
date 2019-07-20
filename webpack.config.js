@@ -2,7 +2,6 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const path = require('path')
 
 module.exports = {
-    //entry: "./src/app.js",
     entry: "./src/index.js",
     //mode: "development",  //specify the type of environment for the compilation tells where the compiled file should be placed
     output: {
